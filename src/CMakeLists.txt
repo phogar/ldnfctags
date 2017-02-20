@@ -32,7 +32,7 @@ add_executable(ldcli ldcli.c ldnfc.c)
 target_link_libraries(ldcli ${GLIB2_LIBRARIES} legodimensions ultralight nfc)
 
 
-# convert gui description file (.glade) into .c 
+# convert gui description file (.glade) into .c
 add_custom_command (
 	OUTPUT ${CMAKE_CURRENT_BINARY_DIR}/gresource.c
 	COMMAND glib-compile-resources --generate-source --sourcedir=${PROJECT_SOURCE_DIR} --target=${CMAKE_CURRENT_BINARY_DIR}/gresource.c ${CMAKE_CURRENT_SOURCE_DIR}/ldnfcgui.gresource.xml
@@ -40,9 +40,16 @@ add_custom_command (
 	${PROJECT_SOURCE_DIR}/gui/ldnfcgui.glade
 )
 
-add_executable(ldmachine ldmachine.c gui.c guicallbacks.c gresource.c )
+add_executable(ldmachine
+	ldmachine.c gui.c guicallbacks.c gresource.c )
 target_link_libraries(ldmachine ${GLIB2_LIBRARIES} ${GTK3_LIBRARIES} legodimensions ultralight nfc)
 
+add_executable( lddb 
+	lddb-main.cpp 
+	lddb-window.cpp lddb-window.h 
+	lddb-model.cpp lddb-model.h
+	legodimensions_characters.c )
+target_link_libraries( lddb ${GLIB2_LIBRARIES} ${GTKMM_LIBRARIES})
 
 #add_executable(ldgui ldgui-main.cpp ldgui-application.h ldgui-application.cpp)
 #target_compile_features(ldgui PRIVATE cxx_noexcept cxx_auto_type cxx_nullptr cxx_decltype)
@@ -65,4 +72,6 @@ add_test(ldpwgen-pwd-character ldpwgen -u 040b4922a34881 -c 13)
 set_tests_properties (ldpwgen-pwd-character
   PROPERTIES PASS_REGULAR_EXPRESSION "35b9af33.+e290d5e7.+72c7bf53"
 )
+
+
 

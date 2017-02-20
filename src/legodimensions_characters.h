@@ -1,6 +1,9 @@
 #ifndef HAVE_LEGODIMENSION_CHARACTERS_H
 #define HAVE_LEGODIMENSION_CHARACTERS_H
 
+#ifdef __cplusplus
+extern "C" {
+#endif
 #include <glib.h>
 #include "legodimensions_ntag.h"
 
@@ -12,7 +15,6 @@
 
 #define LD_CID_VALID(cid) ( cid >= LD_MIN_CID && cid <= LD_MAX_CID )
 
-/* List the different Worlds */
 
 void
 ld_print_characters();
@@ -29,4 +31,7 @@ ld_get_character_world_by_id( guint cid_, GError **error_);
 const ntag_t *
 ld_get_character_by_id( guint cid_, GError **error_);
 
+#ifdef __cplusplus
+}
+#endif 
 #endif

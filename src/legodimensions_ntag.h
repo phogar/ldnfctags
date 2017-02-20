@@ -21,24 +21,23 @@
 #define WORLD_WIZARD_OF_OZ          "Wizard of Oz"
 
 /* wave 6 */
-#define WORLD_FANTASTIC_BEASTS   "Fantastic Beasts and Where to Find Them"
-#define WORLD_ADVENTURE_TIME     "Adventure Time"
-#define WORLD_MISSION_IMPOSSIBLE "Mission: Impossible"
-#define WORLD_HARRY_POTTER       "Harry Potter"
-#define WORLD_GREMLINS           "Gremlins"
-#define WORLD_THE_A_TEAM         "The A-Team"
+#define WORLD_FANTASTIC_BEASTS      "Fantastic Beasts and Where to Find Them"
+#define WORLD_ADVENTURE_TIME        "Adventure Time"
+#define WORLD_MISSION_IMPOSSIBLE    "Mission: Impossible"
+#define WORLD_HARRY_POTTER          "Harry Potter"
+#define WORLD_GREMLINS              "Gremlins"
+#define WORLD_THE_A_TEAM            "The A-Team"
 
 /* wave 7 */
-#define WORLD_SONIC_THE_HEDGEHOG "Sonic the Hedgehog"
-#define WORLD_E_T                "E.T. the Extra-Terrestrial"
+#define WORLD_SONIC_THE_HEDGEHOG    "Sonic the Hedgehog"
+#define WORLD_E_T                   "E.T. the Extra-Terrestrial"
 #define WORLD_THE_LEGO_BATMAN_MOVIE "The Lego Batman Movie"
-#define WORLD_KNIGHT_RIDER       "Knight Rider"
-#define WORLD_GHOSTBUSTER_2016   "Ghostbusters 2016"
+#define WORLD_KNIGHT_RIDER          "Knight Rider"
+#define WORLD_GHOSTBUSTER_2016      "Ghostbusters 2016"
 
-/* wave 9 */
-#define WORLD_LEGO_BATMAN_MOVIE  "The LEGO Batman Movie"
-#define WORLD_KNIGHT_RIDER       "Knight Rider"
-
+/* wave 7.5 */
+#define WORLD_LEGO_BATMAN_MOVIE     "The LEGO Batman Movie"
+#define WORLD_KNIGHT_RIDER          "Knight Rider"
 
 
 typedef struct  {

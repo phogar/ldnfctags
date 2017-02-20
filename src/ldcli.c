@@ -137,7 +137,7 @@ ldcli_list_ntags(GError **error_){
     g_print("List of known vehicles:\n");
     ld_print_vehicles();
     return TRUE;
-} /* ldcli_list_characters */
+} /* ldcli_list_ntags */
 
 
 gboolean

@@ -8,7 +8,7 @@
 
 /* List characters by ID */
 const ntag_t ld_characters[] = {
-/* 00 */ { NTAG_UNKNOWN         , NTAG_UNKNOWN }, /* ID 0 - unused */
+/* 00 */ { NTAG_UNKNOWN         ,NTAG_UNKNOWN }, /* ID 0 - unused */
 /* 01 */ {"Batman"              ,WORLD_DC_COMICS},
 /* 02 */ {"Gandalf"             ,WORLD_LORD_OF_THE_RINGS},
 /* 03 */ {"Wyldstyle"           ,WORLD_THE_LEGO_MOVIE},
@@ -55,7 +55,7 @@ const ntag_t ld_characters[] = {
 /* 40 */ {"Superman"            ,WORLD_DC_COMICS},             /* verified - DC Comics */
 /* 41 */ {"Unikitty"            ,WORLD_THE_LEGO_MOVIE},        /* verified - LEGO Movie */
 /* 42 */ {"Wicked Witch"        ,WORLD_WIZARD_OF_OZ },         /* verified - Wizard of Oz */
-/* 43 */ {"Wonder Woman"          ,WORLD_DC_COMICS},             /* verified - DC Comics r*8/
+/* 43 */ {"Wonder Woman"        ,WORLD_DC_COMICS},             /* verified - DC Comics r*8/
 /* 44 */ {"Zane"                ,WORLD_LEGO_NINJAGO},          /* verified - Ninjago */
 /* 45 */ {"Green Arrow"         ,WORLD_DC_COMICS},             /* verified - DC Comics */
 /* 46 */ {"Supergirl"           ,WORLD_DC_COMICS},             /* verified - DC Comics */
@@ -74,10 +74,10 @@ const ntag_t ld_characters[] = {
 /* 58 */ {NTAG_UNKNOWN          ,NTAG_UNKNOWN},                /* verified - game asks for an update */
 /* 59 */ {"Gizmo"               ,WORLD_GREMLINS},              /* verified - Gremlins */
 
-/* 60 */ {"Stripe"              ,WORLD_GREMLINS},           /* verified - Gremlins */
-/* 61 */ {"E.T."                ,WORLD_E_T},                /* verified - E.T. */
-/* 62 */ {"Tina Goldstein"      ,WORLD_FANTASTIC_BEASTS},   /* verified - Fantastic Beasts */
-/* 63 */ {"Marceline Abadeer"   ,WORLD_ADVENTURE_TIME},     /* verified - Adventure Time */
+/* 60 */ {"Stripe"              ,WORLD_GREMLINS},              /* verified - Gremlins */
+/* 61 */ {"E.T."                ,WORLD_E_T},                   /* verified - E.T. */
+/* 62 */ {"Tina Goldstein"      ,WORLD_FANTASTIC_BEASTS},      /* verified - Fantastic Beasts */
+/* 63 */ {"Marceline Abadeer"   ,WORLD_ADVENTURE_TIME},        /* verified - Adventure Time */
 /* 64 */ {"Batgirl"             ,WORLD_LEGO_BATMAN_MOVIE},     /* verified - The LEGO Batman Movie */
 /* 65 */ {"Robin (Lego Movie)"  ,WORLD_LEGO_BATMAN_MOVIE},     /* verified - The LEGO Batman Movie */
 /* 66 */ {NTAG_UNKNOWN          ,NTAG_UNKNOWN},                /* verified - game asks for an update */
