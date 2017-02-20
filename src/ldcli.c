@@ -346,7 +346,7 @@ main(int argc, char*argv[] ) {
     g_option_context_set_summary(opt_context, "ldcli works on Near Field Communication Tags for the Lego Dimensions game.\n"
                                  "It can read, write tags and list brief information about known characters.\n"
                                  "Read and write operations depend on a preconfigured libnfc installation.");
-    g_option_context_set_description(opt_context, "Before using this tool you'll have to configure libnfc.");
+    g_option_context_set_description(opt_context, "NFC tags of type NFC Sticker, 22mm, NTAG 213, 168 Byte were successfully tested.");
     g_option_context_add_main_entries(opt_context, optentries_main, NULL);
 
     GOptionGroup *optgrp_commands = g_option_group_new("command"

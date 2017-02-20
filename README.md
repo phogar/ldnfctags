@@ -5,8 +5,10 @@ This tiny tool can read, identify and work with NFC Tags for the Lego Dimensions
 
 It uses [libnfc](http://nfc-tools.org ) to access the NFC hardware. Therefore it should work with all devices supported by libnfc. Nevertheless it was developed and tested with a PN532 based [board](https://www.itead.cc/wiki/ITEAD_PN532_NFC_MODULE) in UART mode produced by itead Studio.
 
+
 ## Credits
-Thanks to ags131/node-ld, socram8888/ulread and @bettse for publishing their code and discussing their findings. :+1:
+Thanks to [ags131](http://github.com/ags131/node-ld), [socram8888](http://github.com/socram8888/ulread) and [bettse](http://github.com/bettse) for publishing their code and discussing their findings. :+1:
+
 This helped me to understand the crypto algorithm and the [Mifare Ultralight NFC tags](https://en.wikipedia.org/wiki/MIFARE).
 
 ## Fast Track
