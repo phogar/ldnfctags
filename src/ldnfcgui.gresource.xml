@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/ldnfcgui">
+    <file>images/starter-pack-Dimensions_71171_PS4_680x404.jpg</file>
+    <file compressed="true">gui/ldnfcgui.glade</file>
+  </gresource>
+</gresources>
