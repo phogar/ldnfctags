@@ -39,6 +39,9 @@
 #define WORLD_LEGO_BATMAN_MOVIE     "The LEGO Batman Movie"
 #define WORLD_KNIGHT_RIDER          "Knight Rider"
 
+#define WORLD_LEGO_CITY             "LEGO City"
+#define WORLD_THE_GOONIES           "The Goonies"
+
 
 typedef struct  {
     const gchar *name;

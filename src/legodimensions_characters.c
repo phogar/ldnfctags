@@ -80,10 +80,9 @@ const ntag_t ld_characters[] = {
 /* 63 */ {"Marceline Abadeer"   ,WORLD_ADVENTURE_TIME},        /* verified - Adventure Time */
 /* 64 */ {"Batgirl"             ,WORLD_LEGO_BATMAN_MOVIE},     /* verified - The LEGO Batman Movie */
 /* 65 */ {"Robin (Lego Movie)"  ,WORLD_LEGO_BATMAN_MOVIE},     /* verified - The LEGO Batman Movie */
-/* 66 */ {NTAG_UNKNOWN          ,NTAG_UNKNOWN},                /* verified - game asks for an update */
-/* 67 */ {NTAG_UNKNOWN          ,NTAG_UNKNOWN},                /* verified - game asks for an update */
-/* 68 */ {NTAG_UNKNOWN          ,NTAG_UNKNOWN},                /* verified - game asks for an update */
-
+/* 66 */ {"Sloth"               ,WORLD_THE_GOONIES},           /* verified - The Goonies */
+/* 67 */ {"Hermione Granger"    ,WORLD_HARRY_POTTER},          /* verified - Harry Potter */
+/* 68 */ {"Chase McCain"        ,WORLD_LEGO_CITY},             /* verified - LEGO City */
 /* 69 */ {"Excalibur Batman"    ,WORLD_LEGO_BATMAN_MOVIE},     /* verified - The LEGO Batman Movie */
     { NULL, NULL }                          /* terminate list */
 };

@@ -311,13 +311,29 @@ static const ntag_t ld_vehicles[] = {
 /* 225 */ {"Goliath Armored Semi"    ,WORLD_KNIGHT_RIDER},
 /* 226 */ {"K.I.T.T. Jet"            ,WORLD_KNIGHT_RIDER},
 
-/* 227 */ {NTAG_UNKNOWN              ,NTAG_UNKNOWN },
-/* 228 */ {NTAG_UNKNOWN              ,NTAG_UNKNOWN },
-/* 229 */ {NTAG_UNKNOWN              ,NTAG_UNKNOWN },
+/* 227 */ {"Police Helicopter"       ,WORLD_LEGO_CITY},
+/* 228 */ {"Police Hovercraft"       ,WORLD_LEGO_CITY},
+/* 229 */ {"Police Plane"            ,WORLD_LEGO_CITY},
 
 /* 230 */ {"Bionic Steed"            ,WORLD_LEGO_BATMAN_MOVIE},
 /* 231 */ {"Bat Raptor"              ,WORLD_LEGO_BATMAN_MOVIE},
 /* 232 */ {"Ultrabat"                ,WORLD_LEGO_BATMAN_MOVIE},
+
+/* 233 */ {NTAG_UNKNOWN              ,NTAG_UNKNOWN },  /* Identified by game. But unknown gadget/vehicle */
+/* 234 */ {NTAG_UNKNOWN              ,NTAG_UNKNOWN },
+/* 235 */ {NTAG_UNKNOWN              ,NTAG_UNKNOWN },
+
+/* 236 */ {"Skeleton Orga"           ,WORLD_THE_GOONIES},
+/* 237 */ {"Skeleton Jukebox"        ,WORLD_THE_GOONIES},
+/* 238 */ {"Skele-Turkey"            ,WORLD_THE_GOONIES},
+
+/* 239 */ {"One-Eyed Willy’s Pirate Ship", WORLD_THE_GOONIES},
+/* 240 */ {"Fanged Fortune"          ,WORLD_THE_GOONIES},
+/* 241 */ {"Inferno Cannon"          ,WORLD_THE_GOONIES},
+
+/* 242 */ {"Buckbeak"                ,WORLD_HARRY_POTTER},
+/* 243 */ {"Giant Owl"               ,WORLD_HARRY_POTTER},
+/* 244 */ {"Fierce Falcon"           ,WORLD_HARRY_POTTER},
 
   { NULL }                          /* terminate list */
 };
