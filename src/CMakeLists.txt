@@ -44,12 +44,12 @@ add_executable(ldmachine
 	ldmachine.c gui.c guicallbacks.c gresource.c )
 target_link_libraries(ldmachine ${GLIB2_LIBRARIES} ${GTK3_LIBRARIES} legodimensions ultralight nfc)
 
-add_executable( lddb 
-	lddb-main.cpp 
-	lddb-window.cpp lddb-window.h 
-	lddb-model.cpp lddb-model.h
-	legodimensions_characters.c )
-target_link_libraries( lddb ${GLIB2_LIBRARIES} ${GTKMM_LIBRARIES})
+#add_executable( lddb 
+#	lddb-main.cpp 
+#	lddb-window.cpp lddb-window.h 
+#	lddb-model.cpp lddb-model.h
+#	legodimensions_characters.c )
+#target_link_libraries( lddb ${GLIB2_LIBRARIES} ${GTKMM_LIBRARIES})
 
 #add_executable(ldgui ldgui-main.cpp ldgui-application.h ldgui-application.cpp)
 #target_compile_features(ldgui PRIVATE cxx_noexcept cxx_auto_type cxx_nullptr cxx_decltype)
