@@ -319,9 +319,9 @@ static const ntag_t ld_vehicles[] = {
 /* 231 */ {"Bat Raptor"              ,WORLD_LEGO_BATMAN_MOVIE},
 /* 232 */ {"Ultrabat"                ,WORLD_LEGO_BATMAN_MOVIE},
 
-/* 233 */ {NTAG_UNKNOWN              ,NTAG_UNKNOWN },  /* Identified by game. But unknown gadget/vehicle */
-/* 234 */ {NTAG_UNKNOWN              ,NTAG_UNKNOWN },
-/* 235 */ {NTAG_UNKNOWN              ,NTAG_UNKNOWN },
+/* 233 */ {"Batwing"                 ,WORLD_LEGO_BATMAN_MOVIE},
+/* 234 */ {"The Black Thunder"       ,WORLD_LEGO_BATMAN_MOVIE},
+/* 235 */ {"Bat-Tank"                ,WORLD_LEGO_BATMAN_MOVIE},
 
 /* 236 */ {"Skeleton Orga"           ,WORLD_THE_GOONIES},
 /* 237 */ {"Skeleton Jukebox"        ,WORLD_THE_GOONIES},
