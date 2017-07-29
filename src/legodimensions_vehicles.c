@@ -335,6 +335,34 @@ static const ntag_t ld_vehicles[] = {
 /* 243 */ {"Giant Owl"               ,WORLD_HARRY_POTTER},
 /* 244 */ {"Fierce Falcon"           ,WORLD_HARRY_POTTER},
 
+/* 245 */ {"Saturn's Sandworm"       ,WORLD_BEETLEJUISE },
+/* 246 */ {"Spooky Spider"           ,WORLD_BEETLEJUISE },
+/* 247 */ {"Haunted Vacuum"          ,WORLD_BEETLEJUISE },
+
+/* 248 */ {"PPG Smartphone"          ,WORLD_POWERPUFF_GIRLS },
+/* 249 */ {"PPG Hotline"             ,WORLD_POWERPUFF_GIRLS },
+/* 250 */ {"Powerpuff Mag-Net"       ,WORLD_POWERPUFF_GIRLS },
+
+/* 251 */ {"Ka-Pow Cannon"           ,WORLD_POWERPUFF_GIRLS },
+/* 252 */ {"Slammin' Guitar"         ,WORLD_POWERPUFF_GIRLS },
+/* 253 */ {"Megablast-Bot"           ,WORLD_POWERPUFF_GIRLS },
+
+/* 254 */ {"Octi"                    ,WORLD_POWERPUFF_GIRLS },
+/* 255 */ {"Super SKunk"             ,WORLD_POWERPUFF_GIRLS },
+/* 256 */ {"Sonic Squid"             ,WORLD_POWERPUFF_GIRLS },
+
+/* 257 */ {"T-Car"                   ,WORLD_TEEN_TITANS_GO },
+/* 258 */ {"T-Forklift"              ,WORLD_TEEN_TITANS_GO },
+/* 259 */ {"T-Plane"                 ,WORLD_TEEN_TITANS_GO },
+
+/* 260 */ {"Spellbook of Azarath"    ,WORLD_TEEN_TITANS_GO },
+/* 261 */ {"Raven Wings"             ,WORLD_TEEN_TITANS_GO },
+/* 262 */ {"Giant Hand"              ,WORLD_TEEN_TITANS_GO },
+
+/* 263 */ {"Titan Robot"             ,WORLD_TEEN_TITANS_GO},
+/* 264 */ {"T-Rocket"                ,WORLD_TEEN_TITANS_GO},
+/* 265 */ {"Robot Retriever"         ,WORLD_TEEN_TITANS_GO},
+
   { NULL }                          /* terminate list */
 };
 

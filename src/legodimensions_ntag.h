@@ -42,6 +42,10 @@
 #define WORLD_LEGO_CITY             "LEGO City"
 #define WORLD_THE_GOONIES           "The Goonies"
 
+/* wave 9 */
+#define WORLD_TEEN_TITANS_GO        "Teen Titans Go!"
+#define WORLD_BEETLEJUISE           "Beetlejuice"
+#define WORLD_POWERPUFF_GIRLS       "The Powerpuff Girls"
 
 typedef struct  {
     const gchar *name;

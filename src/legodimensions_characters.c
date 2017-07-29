@@ -55,7 +55,7 @@ const ntag_t ld_characters[] = {
 /* 40 */ {"Superman"            ,WORLD_DC_COMICS},             /* verified - DC Comics */
 /* 41 */ {"Unikitty"            ,WORLD_THE_LEGO_MOVIE},        /* verified - LEGO Movie */
 /* 42 */ {"Wicked Witch"        ,WORLD_WIZARD_OF_OZ },         /* verified - Wizard of Oz */
-/* 43 */ {"Wonder Woman"        ,WORLD_DC_COMICS},             /* verified - DC Comics r*8/
+/* 43 */ {"Wonder Woman"        ,WORLD_DC_COMICS},             /* verified - DC Comics */
 /* 44 */ {"Zane"                ,WORLD_LEGO_NINJAGO},          /* verified - Ninjago */
 /* 45 */ {"Green Arrow"         ,WORLD_DC_COMICS},             /* verified - DC Comics */
 /* 46 */ {"Supergirl"           ,WORLD_DC_COMICS},             /* verified - DC Comics */
@@ -84,6 +84,15 @@ const ntag_t ld_characters[] = {
 /* 67 */ {"Hermione Granger"    ,WORLD_HARRY_POTTER},          /* verified - Harry Potter */
 /* 68 */ {"Chase McCain"        ,WORLD_LEGO_CITY},             /* verified - LEGO City */
 /* 69 */ {"Excalibur Batman"    ,WORLD_LEGO_BATMAN_MOVIE},     /* verified - The LEGO Batman Movie */
+/* 70 */ {"Raven"               ,WORLD_TEEN_TITANS_GO},        /* verified - Teen Titans Go! */
+/* 71 */ {"Beast Boy"           ,WORLD_TEEN_TITANS_GO},        /* verified - Teen Titans Go! */
+/* 72 */ {"Betelgeuse"          ,WORLD_BEETLEJUISE},           /* verified - Beetlejuice */
+/* 73 */ {NTAG_UNKNOWN          ,NTAG_UNKNOWN},                /* game crashes */
+/* 74 */ {"Blossom"             ,WORLD_POWERPUFF_GIRLS},
+/* 75 */ {"Bubbles"             ,WORLD_POWERPUFF_GIRLS},
+/* 76 */ {"Buttercup"           ,WORLD_POWERPUFF_GIRLS},
+/* 77 */ {"Starfire"            ,WORLD_TEEN_TITANS_GO},
+/* 78 */ {NTAG_UNKNOWN          ,NTAG_UNKNOWN},                /* game crashes */
     { NULL, NULL }                          /* terminate list */
 };
 
