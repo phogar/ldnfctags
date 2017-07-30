@@ -32,13 +32,13 @@ static const ntag_t ld_vehicles[] = {
 /* 016 */ {"Cyclone Board"           ,WORLD_BACK_TO_THE_FUTURE },
 /* 017 */ {"Ultimate Hoverjet"       ,WORLD_BACK_TO_THE_FUTURE },
 
-/* 018 */ {"Eagle interceptor"       ,WORLD_LEGO_LEGENDS_OF_CHIMA },
+/* 018 */ {"Eagle Interceptor"       ,WORLD_LEGO_LEGENDS_OF_CHIMA },
 /* 019 */ {"Eagle Skyblazer"         ,WORLD_LEGO_LEGENDS_OF_CHIMA },
 /* 020 */ {"Eagle Swoop Diver"       ,WORLD_LEGO_LEGENDS_OF_CHIMA },
 
 /* 021 */ {"Swamp Skimmer"           ,WORLD_LEGO_LEGENDS_OF_CHIMA },
 /* 022 */ {"Croc Command Sub"        ,WORLD_LEGO_LEGENDS_OF_CHIMA },
-/* 023 */ {"Swamp Skimmer"           ,WORLD_LEGO_LEGENDS_OF_CHIMA },
+/* 023 */ {"Cragger's Fireship"      ,WORLD_LEGO_LEGENDS_OF_CHIMA },
 
 /* 024 */ {"Cyber Guard"             ,WORLD_DC_COMICS },
 /* 025 */ {"Cyber-Wrecker"           ,WORLD_DC_COMICS },
@@ -80,7 +80,7 @@ static const ntag_t ld_vehicles[] = {
 /* 052 */ {"Spike Attack Raptor"     ,WORLD_JURASSIC_WORLD },
 /* 053 */ {"Venom Raptor"            ,WORLD_JURASSIC_WORLD },
 
-/* 054 */ {"Gyro Sphere"             ,WORLD_JURASSIC_WORLD },
+/* 054 */ {"Gyrosphere"             ,WORLD_JURASSIC_WORLD },
 /* 055 */ {"Sonic Beam Gyrosphere"   ,WORLD_JURASSIC_WORLD },
 /* 056 */ {"Speed Boost Gyrosphere"  ,WORLD_JURASSIC_WORLD },
 
@@ -141,32 +141,32 @@ static const ntag_t ld_vehicles[] = {
 /* 098 */ {"Freeze Fighter"          ,WORLD_LEGO_NINJAGO },
 
 /* 099 */ {"Traveling Time Train"    ,WORLD_BACK_TO_THE_FUTURE },
-/* 100 */ {"Traveling Time Train 1"  ,WORLD_BACK_TO_THE_FUTURE },
-/* 101 */ {"Traveling Time Train 2"  ,WORLD_BACK_TO_THE_FUTURE },
+/* 100 */ {"Flying Time Train "      ,WORLD_BACK_TO_THE_FUTURE },
+/* 101 */ {"Missile Blast Time Train",WORLD_BACK_TO_THE_FUTURE },
 
 /* 102 */ {"Aqua Watercraft"         ,WORLD_DC_COMICS },
-/* 103 */ {"Aqua Watercraft 1"       ,WORLD_DC_COMICS },
-/* 104 */ {"Aqua Watercraft 2"       ,WORLD_DC_COMICS },
+/* 103 */ {"Seven Seas Speeder"      ,WORLD_DC_COMICS },
+/* 104 */ {"Trident of Fire"         ,WORLD_DC_COMICS },
 
 /* 105 */ {"Drill Driver"            ,WORLD_DC_COMICS },
-/* 106 */ {"Drill Driver 1"          ,WORLD_DC_COMICS },
-/* 107 */ {"Drill Driver 2"          ,WORLD_DC_COMICS },
+/* 106 */ {"Bane Dig 'n' Drill"      ,WORLD_DC_COMICS },
+/* 107 */ {"Bane Drill 'n' Blast"    ,WORLD_DC_COMICS },
 
 /* 108 */ {"Quinn-mobile"            ,WORLD_DC_COMICS },
-/* 109 */ {"Quinn-mobile 1"          ,WORLD_DC_COMICS },
-/* 110 */ {"Quinn-mobile 2"          ,WORLD_DC_COMICS },
+/* 109 */ {"Quinn Ultra Racer"       ,WORLD_DC_COMICS },
+/* 110 */ {"Missile Launcher"        ,WORLD_DC_COMICS },
 
 /* 111 */ {"The Jokers Chopper"      ,WORLD_DC_COMICS  },
-/* 112 */ {"The Jokers Chopper 1"    ,WORLD_DC_COMICS },
-/* 113 */ {"The Jokers Chopper 2"    ,WORLD_DC_COMICS },
+/* 112 */ {"Mischievous Missile Blaster",WORLD_DC_COMICS },
+/* 113 */ {"Lock 'n' Laser Jet"      ,WORLD_DC_COMICS },
 
 /* 114 */ {"Hover Pod"               ,WORLD_DC_COMICS },
-/* 115 */ {"Hover Pod 1"             ,WORLD_DC_COMICS },
+/* 115 */ {"Krypton Striker"         ,WORLD_DC_COMICS },
 /* 116 */ {"Hover Pod 2"             ,WORLD_DC_COMICS },
 
 /* 117 */ {"Dalek"                   ,WORLD_DOCTOR_WHO },
-/* 118 */ {"Dalek 1"                 ,WORLD_DOCTOR_WHO },
-/* 119 */ {"Dalek 2"                 ,WORLD_DOCTOR_WHO },
+/* 118 */ {"Fire 'n' Ride Dalek"     ,WORLD_DOCTOR_WHO },
+/* 119 */ {"Silver Shooter Dalek"    ,WORLD_DOCTOR_WHO },
 
 /* 120 */ {"Ecto-1"                  ,WORLD_GHOSTBUSTERS },
 /* 121 */ {"Ecto-1 Blaster"          ,WORLD_GHOSTBUSTERS },
@@ -243,7 +243,7 @@ static const ntag_t ld_vehicles[] = {
 /* 174 */ {"DOGMO"                   ,WORLD_ADVENTURE_TIME},
 /* 175 */ {"SNAKEMO"                 ,WORLD_ADVENTURE_TIME},
 
-/* 176 */ {"Jakemobilie"             ,WORLD_ADVENTURE_TIME}, /* belongs to Finn */
+/* 176 */ {"Jakemobile"              ,WORLD_ADVENTURE_TIME}, /* belongs to Finn */
 /* 177 */ {"Snail Dude Jake"         ,WORLD_ADVENTURE_TIME},
 /* 178 */ {"Hover Jake"              ,WORLD_ADVENTURE_TIME},
 
@@ -311,9 +311,9 @@ static const ntag_t ld_vehicles[] = {
 /* 225 */ {"Goliath Armored Semi"    ,WORLD_KNIGHT_RIDER},
 /* 226 */ {"K.I.T.T. Jet"            ,WORLD_KNIGHT_RIDER},
 
-/* 227 */ {"Police Helicopter"       ,WORLD_LEGO_CITY},
-/* 228 */ {"Police Hovercraft"       ,WORLD_LEGO_CITY},
-/* 229 */ {"Police Plane"            ,WORLD_LEGO_CITY},
+/* 227 */ {NTAG_UNKNOWN              ,NTAG_UNKNOWN },
+/* 228 */ {NTAG_UNKNOWN              ,NTAG_UNKNOWN },
+/* 229 */ {NTAG_UNKNOWN              ,NTAG_UNKNOWN },
 
 /* 230 */ {"Bionic Steed"            ,WORLD_LEGO_BATMAN_MOVIE},
 /* 231 */ {"Bat Raptor"              ,WORLD_LEGO_BATMAN_MOVIE},
@@ -327,7 +327,7 @@ static const ntag_t ld_vehicles[] = {
 /* 237 */ {"Skeleton Jukebox"        ,WORLD_THE_GOONIES},
 /* 238 */ {"Skele-Turkey"            ,WORLD_THE_GOONIES},
 
-/* 239 */ {"One-Eyed Willy’s Pirate Ship", WORLD_THE_GOONIES},
+/* 239 */ {"One-Eyed Willy's Pirate Ship", WORLD_THE_GOONIES},
 /* 240 */ {"Fanged Fortune"          ,WORLD_THE_GOONIES},
 /* 241 */ {"Inferno Cannon"          ,WORLD_THE_GOONIES},
 
