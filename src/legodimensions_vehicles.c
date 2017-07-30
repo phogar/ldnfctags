@@ -255,9 +255,9 @@ static const ntag_t ld_vehicles[] = {
 /* 183 */ {"Shadow Scorpion"         ,WORLD_ADVENTURE_TIME},
 /* 184 */ {"Heavy Metal Monster"     ,WORLD_ADVENTURE_TIME},
 
-/* 185 */ {"B.A.'s Van"              ,WORLD_THE_A_TEAM},
-/* 186 */ {"Fool Shmasher"           ,WORLD_THE_A_TEAM},
-/* 187 */ {"Pain Plane"              ,WORLD_THE_A_TEAM},
+/* 185 */ {"B.A.'s Van"              ,WORLD_A_TEAM},
+/* 186 */ {"Fool Shmasher"           ,WORLD_A_TEAM},
+/* 187 */ {"Pain Plane"              ,WORLD_A_TEAM},
 
 /* 188 */ {"Phone Home"              ,WORLD_E_T},
 /* 189 */ {"Mobile Uplink"           ,WORLD_E_T},

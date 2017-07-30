@@ -68,7 +68,7 @@ const ntag_t ld_characters[] = {
 /* 52 */ {"Harry Potter"        ,WORLD_HARRY_POTTER},          /* verified - Harry Potter  */
 /* 53 */ {"Lord Voldemort"      ,WORLD_HARRY_POTTER},          /* verified - Harry Potter */
 /* 54 */ {"Michael Knight"      ,WORLD_KNIGHT_RIDER},          /* verified - Knight Rider */
-/* 55 */ {"B.A.Baracus"         ,WORLD_THE_A_TEAM},            /* verified - The A-Team */
+/* 55 */ {"B.A.Baracus"         ,WORLD_A_TEAM},                /* verified - The A-Team */
 /* 56 */ {"Newt Scamander"      ,WORLD_FANTASTIC_BEASTS},      /* verified - Fantastic Beasts */
 /* 57 */ {"Sonic the Hedgehog"  ,WORLD_SONIC_THE_HEDGEHOG},    /* verified - Sonic The Hedgehog */
 /* 58 */ {NTAG_UNKNOWN          ,NTAG_UNKNOWN},                /* verified - game asks for an update */
@@ -87,12 +87,14 @@ const ntag_t ld_characters[] = {
 /* 70 */ {"Raven"               ,WORLD_TEEN_TITANS_GO},        /* verified - Teen Titans Go! */
 /* 71 */ {"Beast Boy"           ,WORLD_TEEN_TITANS_GO},        /* verified - Teen Titans Go! */
 /* 72 */ {"Betelgeuse"          ,WORLD_BEETLEJUISE},           /* verified - Beetlejuice */
-/* 73 */ {NTAG_UNKNOWN          ,NTAG_UNKNOWN},                /* game crashes */
+/* 73 */ {NTAG_UNKNOWN          ,NTAG_UNKNOWN},                /* game v2.4.0 crashes  */
 /* 74 */ {"Blossom"             ,WORLD_POWERPUFF_GIRLS},
 /* 75 */ {"Bubbles"             ,WORLD_POWERPUFF_GIRLS},
 /* 76 */ {"Buttercup"           ,WORLD_POWERPUFF_GIRLS},
 /* 77 */ {"Starfire"            ,WORLD_TEEN_TITANS_GO},
-/* 78 */ {NTAG_UNKNOWN          ,NTAG_UNKNOWN},                /* game crashes */
+/* 78 */ {NTAG_UNKNOWN          ,NTAG_UNKNOWN},                /* game v2.4.0 crashes */
+/* 79 */ {NTAG_UNKNOWN          ,NTAG_UNKNOWN},                /* game v2.4.0 crashes */
+/* 80 */ {NTAG_UNKNOWN          ,NTAG_UNKNOWN},                /* game v2.4.0 crashes */
     { NULL, NULL }                          /* terminate list */
 };
 

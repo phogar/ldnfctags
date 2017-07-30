@@ -3,7 +3,7 @@
 
 #include <glib.h>
 
-#define NTAG_UNKNOWN                "UNKOWN"
+#define NTAG_UNKNOWN                "UNKNOWN"
 
 #define WORLD_DC_COMICS             "DC Comics"
 #define WORLD_LORD_OF_THE_RINGS     "Lord of the Rings"
@@ -21,26 +21,26 @@
 #define WORLD_WIZARD_OF_OZ          "Wizard of Oz"
 
 /* wave 6 */
-#define WORLD_FANTASTIC_BEASTS      "Fantastic Beasts and Where to Find Them"
+#define WORLD_GHOSTBUSTER_2016      "Ghostbusters 2016"
 #define WORLD_ADVENTURE_TIME        "Adventure Time"
 #define WORLD_MISSION_IMPOSSIBLE    "Mission: Impossible"
 #define WORLD_HARRY_POTTER          "Harry Potter"
-#define WORLD_GREMLINS              "Gremlins"
-#define WORLD_THE_A_TEAM            "The A-Team"
+#define WORLD_A_TEAM                "The A-Team"
 
 /* wave 7 */
+#define WORLD_FANTASTIC_BEASTS      "Fantastic Beasts and Where to Find Them"
 #define WORLD_SONIC_THE_HEDGEHOG    "Sonic the Hedgehog"
 #define WORLD_E_T                   "E.T. the Extra-Terrestrial"
-#define WORLD_THE_LEGO_BATMAN_MOVIE "The Lego Batman Movie"
-#define WORLD_KNIGHT_RIDER          "Knight Rider"
-#define WORLD_GHOSTBUSTER_2016      "Ghostbusters 2016"
+#define WORLD_GREMLINS              "Gremlins"
+
 
 /* wave 7.5 */
 #define WORLD_LEGO_BATMAN_MOVIE     "The LEGO Batman Movie"
 #define WORLD_KNIGHT_RIDER          "Knight Rider"
 
-#define WORLD_LEGO_CITY             "LEGO City"
+/* wave 8 */
 #define WORLD_THE_GOONIES           "The Goonies"
+#define WORLD_LEGO_CITY             "LEGO City"
 
 /* wave 9 */
 #define WORLD_TEEN_TITANS_GO        "Teen Titans Go!"
