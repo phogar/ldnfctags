@@ -1,0 +1,182 @@
+PRAGMA foreign_keys=ON;
+BEGIN TRANSACTION;
+CREATE TABLE "packaging" (
+	`id`	INTEGER NOT NULL UNIQUE,
+	`name`	TEXT UNIQUE,
+	PRIMARY KEY(id)
+) WITHOUT ROWID;
+INSERT INTO "packaging" VALUES(0,'Starter Pack');
+INSERT INTO "packaging" VALUES(1,'Story Pack');
+INSERT INTO "packaging" VALUES(2,'Level Pack');
+INSERT INTO "packaging" VALUES(3,'Team Pack');
+INSERT INTO "packaging" VALUES(4,'Fun Pack');
+INSERT INTO "packaging" VALUES(5,'Polybag');
+
+CREATE TABLE "worlds" (
+	`id`	INTEGER NOT NULL UNIQUE,
+	`name`	TEXT NOT NULL UNIQUE,
+	PRIMARY KEY(id)
+) WITHOUT ROWID;
+INSERT INTO "worlds" VALUES(1,'The LEGO Movie');
+INSERT INTO "worlds" VALUES(2,'The Lord of the Rings');
+INSERT INTO "worlds" VALUES(3,'DC Comics');
+INSERT INTO "worlds" VALUES(4,'Ghostbusters');
+INSERT INTO "worlds" VALUES(5,'Fantastic Beasts and Where to Find Them');
+INSERT INTO "worlds" VALUES(6,'Back to the Future');
+INSERT INTO "worlds" VALUES(7,'Simpsons');
+INSERT INTO "worlds" VALUES(8,'Portal 2');
+INSERT INTO "worlds" VALUES(9,'Doctor Who');
+INSERT INTO "worlds" VALUES(10,'Jurassic World');
+INSERT INTO "worlds" VALUES(11,'Scooby-Doo!');
+INSERT INTO "worlds" VALUES(12,'Ninjago');
+INSERT INTO "worlds" VALUES(13,'The Wizard of Oz');
+INSERT INTO "worlds" VALUES(14,'Legends of Chima');
+INSERT INTO "worlds" VALUES(15,'The LEGO Batman Movie');
+INSERT INTO "worlds" VALUES(16,'Midway Arcade');
+INSERT INTO "worlds" VALUES(17,'Adventure Time');
+INSERT INTO "worlds" VALUES(18,'Harry Potter');
+INSERT INTO "worlds" VALUES(19,'The A-Team');
+INSERT INTO "worlds" VALUES(20,'Sonic The Hedgehog');
+INSERT INTO "worlds" VALUES(21,'Ghostbusters (2016)');
+INSERT INTO "worlds" VALUES(22,'E.T. The Extra-Terrestrial');
+INSERT INTO "worlds" VALUES(23,'Mission: Impossible');
+INSERT INTO "worlds" VALUES(24,'Gremlins');
+INSERT INTO "worlds" VALUES(25,'Teen Titans Go!');
+INSERT INTO "worlds" VALUES(26,'The Goonies');
+INSERT INTO "worlds" VALUES(27,'Knight Rider');
+INSERT INTO "worlds" VALUES(28,'LEGO City: Undercover');
+INSERT INTO "worlds" VALUES(29,'Beetlejuice');
+INSERT INTO "worlds" VALUES(30,'The Powerpuff Girls');
+
+CREATE TABLE `waves` (
+	`id`	INTEGER NOT NULL UNIQUE,
+	`released`	TEXT NOT NULL DEFAULT '2015-01-01',
+	PRIMARY KEY(id)
+) WITHOUT ROWID;
+INSERT INTO "waves" VALUES(10,'2015-09-27');
+INSERT INTO "waves" VALUES(20,'2015-11-03');
+INSERT INTO "waves" VALUES(30,'2016-01-19');
+INSERT INTO "waves" VALUES(40,'2016-03-15');
+INSERT INTO "waves" VALUES(50,'2016-05-10');
+INSERT INTO "waves" VALUES(60,'2016-09-27');
+INSERT INTO "waves" VALUES(70,'2016-11-18');
+INSERT INTO "waves" VALUES(75,'2017-02-10');
+INSERT INTO "waves" VALUES(80,'2017-05-09');
+INSERT INTO "waves" VALUES(90,'2017-09-12');
+
+CREATE TABLE "sets" (
+	`id`	INTEGER NOT NULL UNIQUE,
+	`wave_id`	INTEGER NOT NULL,
+	`packaging_id`	INTEGER NOT NULL,
+	PRIMARY KEY(id),
+	FOREIGN KEY(`wave_id`) REFERENCES waves ( id ),
+	FOREIGN KEY(`packaging_id`) REFERENCES packaging ( id )
+) WITHOUT ROWID;
+INSERT INTO "sets" VALUES(71170,10,0);
+
+-- story packs
+INSERT INTO "sets" VALUES(71242,10,1);
+INSERT INTO "sets" VALUES(71253,70,1);
+INSERT INTO "sets" VALUES(71264,75,1);
+
+-- level packs
+INSERT INTO "sets" VALUES(71201,10,2);
+INSERT INTO "sets" VALUES(71202,10,2);
+INSERT INTO "sets" VALUES(71203,10,2);
+INSERT INTO "sets" VALUES(71204,20,2);
+INSERT INTO "sets" VALUES(71228,30,2);
+INSERT INTO "sets" VALUES(71235,60,2);
+INSERT INTO "sets" VALUES(71244,70,2);
+INSERT INTO "sets" VALUES(71245,60,2);
+INSERT INTO "sets" VALUES(71248,60,2);
+INSERT INTO "sets" VALUES(71267,80,2);
+
+-- team packs
+INSERT INTO "sets" VALUES(71205,10,3);
+INSERT INTO "sets" VALUES(71206,10,3);
+INSERT INTO "sets" VALUES(71207,20,3);
+INSERT INTO "sets" VALUES(71229,30,3);
+INSERT INTO "sets" VALUES(71246,60,3);
+INSERT INTO "sets" VALUES(71247,60,3);
+INSERT INTO "sets" VALUES(71255,90,3);
+INSERT INTO "sets" VALUES(71256,70,3);
+INSERT INTO "sets" VALUES(71346,90,3);
+
+-- fun packs
+INSERT INTO "sets" VALUES(71209,10,4);
+INSERT INTO "sets" VALUES(71210,10,4);
+INSERT INTO "sets" VALUES(71211,20,4);
+INSERT INTO "sets" VALUES(71212,10,4);
+INSERT INTO "sets" VALUES(71213,10,4);
+INSERT INTO "sets" VALUES(71214,10,4);
+INSERT INTO "sets" VALUES(71215,10,4);
+INSERT INTO "sets" VALUES(71216,10,4);
+INSERT INTO "sets" VALUES(71217,10,4);
+INSERT INTO "sets" VALUES(71218,10,4);
+INSERT INTO "sets" VALUES(71219,10,4);
+INSERT INTO "sets" VALUES(71220,10,4);
+INSERT INTO "sets" VALUES(71221,10,4);
+INSERT INTO "sets" VALUES(71222,10,4);
+INSERT INTO "sets" VALUES(71223,10,4);
+INSERT INTO "sets" VALUES(71227,20,4);
+INSERT INTO "sets" VALUES(71230,30,4);
+INSERT INTO "sets" VALUES(71231,20,4);
+INSERT INTO "sets" VALUES(71232,10,4);
+INSERT INTO "sets" VALUES(71233,40,4);
+INSERT INTO "sets" VALUES(71234,30,4);
+INSERT INTO "sets" VALUES(71236,40,4);
+INSERT INTO "sets" VALUES(71237,40,4);
+INSERT INTO "sets" VALUES(71238,30,4);
+INSERT INTO "sets" VALUES(71239,50,4);
+INSERT INTO "sets" VALUES(71240,50,4);
+INSERT INTO "sets" VALUES(71241,50,4);
+INSERT INTO "sets" VALUES(71251,60,4);
+INSERT INTO "sets" VALUES(71257,70,4);
+INSERT INTO "sets" VALUES(71258,70,4);
+INSERT INTO "sets" VALUES(71266,80,4);
+INSERT INTO "sets" VALUES(71285,75,4);
+INSERT INTO "sets" VALUES(71286,75,4);
+INSERT INTO "sets" VALUES(71287,90,4);
+INSERT INTO "sets" VALUES(71343,90,4);
+INSERT INTO "sets" VALUES(71344,75,4);
+INSERT INTO "sets" VALUES(71348,80,4);
+INSERT INTO "sets" VALUES(71349,90,4);
+
+-- polybags
+INSERT INTO "sets" VALUES(71340,10,5);
+INSERT INTO "sets" VALUES(71341,10,5);
+INSERT INTO "sets" VALUES(71342,10,5);
+
+CREATE TABLE "characters" (
+	`id`		INTEGER NOT NULL UNIQUE,
+	`set_id`	INTEGER NOT NULL,
+	`world_id`	INTEGER NOT NULL,
+	`name`		TEXT NOT NULL UNIQUE,
+	PRIMARY KEY(id),
+	FOREIGN KEY(`set_id`) REFERENCES sets ( id ),
+	FOREIGN KEY(`world_id`) REFERENCES worlds ( id )
+) WITHOUT ROWID;
+INSERT INTO "characters" VALUES(1,71170,3,'Batman');
+INSERT INTO "characters" VALUES(2,71170,2,'Gandalf');
+INSERT INTO "characters" VALUES(3,71170,1,'Wyldstyle');
+INSERT INTO "characters" VALUES(31,71201,6,'Marty McFly');
+INSERT INTO "characters" VALUES(45,71342,1,'Green Arrow');
+INSERT INTO "characters" VALUES(46,71340,3,'Supergirl');
+
+CREATE TABLE "vehicles" (
+	`id`	INTEGER NOT NULL UNIQUE,
+	`character_id`	INTEGER NOT NULL,
+	`name`	TEXT NOT NULL UNIQUE,
+	`upgradesvehicle_id`	INTEGER,
+	PRIMARY KEY(id),
+	FOREIGN KEY(`character_id`) REFERENCES characters ( id ),
+	FOREIGN KEY(`upgradesvehicle_id`) REFERENCES vehicles( id )
+) WITHOUT ROWID;
+COMMIT;
+INSERT INTO "vehicles" VALUES(6,1,'Batmobile',NULL);
+INSERT INTO "vehicles" VALUES(7,1,'Batblaster',6);
+INSERT INTO "vehicles" VALUES(8,1,'Sonic Batray',6);
+INSERT INTO "vehicles" VALUES(12,31,'DeLorean Time Machine',NULL);
+INSERT INTO "vehicles" VALUES(13,31,'Ultra Time Machine',12);
+INSERT INTO "vehicles" VALUES(14,31,'Electric Time Machine',12);
+
